@@ -55,4 +55,4 @@ base_verbetes$cargos <- str_trim(base_verbetes$cargos, side = "both")
 
 # Cria um arquivo. csv para ser usado no R ou outro software estatístico
 
-write_csv(base_verbetes, file = "verbetes_dataset.csv")
+write_csv(base_verbetes, file = "data/verbetes_dataset.csv")
